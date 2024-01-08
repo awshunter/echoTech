@@ -1,0 +1,84 @@
+body{
+    width: 100%;
+}
+
+
+#header{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background :#ededed;
+    box-shadow: 0 29px 15px rgba(237, 237,237);
+    z-index: 999;
+    position: sticky;
+    left: 0;
+    top: 0;
+    
+    
+
+}
+
+#navbar{
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+#navbar li{
+list-style: none;
+padding: 0 40px;
+
+
+}
+
+#navbar li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: black ;
+    transition: 0.3 ease;
+}
+#navbar li a:hover{
+    color: red;
+}
+
+
+/* Add these styles to your existing styles.css file */
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.product {
+    border: 0;
+    padding: 15px;
+    margin: 10px;
+    text-align: center;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+
+.price {
+    color: #007bff;
+    font-weight: bold;
+}
+
+button {
+background-image: url(img/button.png);    
+    padding: 14px 80px 14px 80px;
+    border: 0;
+    background-color: white;
+   
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+

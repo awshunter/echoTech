@@ -1,0 +1,76 @@
+body{
+    width: 100%;
+    background-color: #ededed;
+}
+
+
+#header{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background :#ededed;
+    box-shadow: 0 29px 15px rgba(237, 237,237);
+    z-index: 999;
+    position: sticky;
+    left: 0;
+    top: 0;
+    
+    
+
+}
+
+#navbar{
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+#navbar li{
+list-style: none;
+padding: 0 40px;
+
+
+}
+
+#navbar li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: black ;
+    transition: 0.3 ease;
+}
+#navbar li a:hover{
+    color: red;
+}
+.about{
+    background-image: url(img/moblie1.png);
+    background-repeat: no-repeat;
+    height: 145vh;
+    width: 100%;
+    background-size: contain;
+    color: black;
+    align-items: flex-start;
+    justify-content: center;
+    background-position: top 25%  right 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+h1{
+    text-transform: uppercase;
+    text-indent: 55px;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 60px;
+     
+}
+
+
+
+
+
