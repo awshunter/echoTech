@@ -3,20 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="checkout.css">
-    <link rel="stylesheet" href="style.css">
+    <title>echoTech</title>
+    <link rel="shortcut icon" href="img/echoTech1.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/checkout.css">
+
     <script src="https://kit.fontawesome.com/92d70a2fd8.js" crossorigin="anonymous"></script>
+    
      
 </head>
 <body>
 
     <section id="header">
-        <img src="img/logo.png" class="logo" alt="">
+        <a href="index.html"><img src="img/logo.png" class="logo" alt=""></a>
         <div>
             <ul id="navbar">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">about</a></li>
-                <li><a href="contect.html">contect</a></li>
+                <li><a href="Contact.html">contect us</a></li>
                 <li><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i><p id="count"></p></a></li>
 
 
@@ -47,11 +50,12 @@
 
             <label for="cvv">CVV:</label>
             <input type="text" id="cvv" name="cvv" >
-
-           <button type="submit"><a href="thank-you.html">Place Order</a></button>
+           <div class="checkout-button">
+           <button type="submit" onclick="PlaceOrder()"><a href="thank-you.html">Place Order</a></button>
+           </div>
         </form>
     </section>
 
-   
+   <script src="js/thank.js"></script>
 </body>
 </html>

@@ -1,12 +1,15 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>echoTech</title>
-    <link rel="shortcut icon" href="img/echoTech1.png" type="image/x-icon">
-    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="shortcut icon" href="img/echoTech1.png" type="image/x-icon">    <link rel="stylesheet" href="css/Contact.css">
     <script src="https://kit.fontawesome.com/92d70a2fd8.js" crossorigin="anonymous"></script>
+
+    <style>
+
+    </style>
 </head>
 <body>
 
@@ -21,15 +24,27 @@
             </ul>
         </div>
     </section>
-
     <section id="h">
-        <h1>Welcome</h1>
-        <h2>to echoTech store</h2>
-        <p>Save more with coupons & up to 20% off!</p>
-        <button><a href="products.html">Shop now</a></button>
+        <h2>Contact</h2>
+
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Name" >
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Email">
+
+            <label for="address">Subject:</label>
+            <textarea id="Subject" name="Subject" placeholder="Subject"></textarea>
+
+            <label for="card">Message:</label>
+            <textarea id="Message" name="Message" placeholder="Message" ></textarea>
+
+           <button type="submit"><a href="">Send</a></button>
+
+        </form>
     </section>
 
-   
 
     <footer id="contact">
         <div class="main-content">
@@ -54,12 +69,13 @@
                     </div>
                 </div>
             </div>
-        
+            <div class="right box"></div>
         </div>
         <div class="bottom">
             <p>&copy; 2024 E-Commerce Device Store</p>
         </div>
     </footer>
 
+</div>
 </body>
 </html>
